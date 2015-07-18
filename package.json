@@ -11,9 +11,16 @@
     "koa": "*"
   },
   "scripts": {
+    "test": "eslint .",
     "start": "NEW_BASE_URL=https://twitter.com/clearjs node web.js"
   },
   "engines": {
     "iojs": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "*",
+    "eslint": "^0.24.1",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-react": "*"
   }
 }

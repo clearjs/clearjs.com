@@ -1,3 +1,11 @@
 test:
   override:
     - npm test
+deployment:
+  staging:
+    branch: dev
+    heroku:
+      appname: dev-clearjs
+    branch: master
+    heroku:
+      appname: clearjs

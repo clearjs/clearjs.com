@@ -10,3 +10,6 @@ deployment:
     branch: master
     heroku:
       appname: clearjs
+machine:
+  node:
+    version: iojs-v1.3.0

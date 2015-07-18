@@ -1,0 +1,19 @@
+{
+  "name": "clearjs",
+  "description": "Source code for clearjs.com website",
+  "version": "0.0.1",
+  "author": "Roman Boiko <rb@clearjs.com>",
+  "license": "MIT",
+  "main": "./web.js",
+  "dependencies": {
+    "babel": "*",
+    "babel-core": "*",
+    "koa": "*"
+  },
+  "scripts": {
+    "start": "NEW_BASE_URL=https://twitter.com/clearjs node web.js"
+  },
+  "engines": {
+    "iojs": "*"
+  }
+}

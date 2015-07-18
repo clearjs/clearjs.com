@@ -6,7 +6,7 @@ app.use(function *logger(next) {
   const start = new Date();
   yield next;
   const ms = new Date() - start;
-  console.log('%s %s %s - %s', this.method, this.url, this.ip, ms);
+  console.log('%s %s %s - %s', this.ip, this.method, this.url, ms);
 });
 
 app.use(function *handler() {

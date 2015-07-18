@@ -4,15 +4,15 @@
   "version": "0.0.1",
   "author": "Roman Boiko <rb@clearjs.com>",
   "license": "MIT",
-  "main": "./web.js",
+  "main": "./src/web.js",
   "dependencies": {
     "babel": "*",
     "babel-core": "*",
     "koa": "*"
   },
   "scripts": {
-    "test": "eslint .",
-    "start": "NEW_BASE_URL=https://twitter.com/clearjs node web.js"
+    "test": "eslint src",
+    "start": "NEW_BASE_URL=https://twitter.com/clearjs node src/web.js"
   },
   "engines": {
     "iojs": "*"
